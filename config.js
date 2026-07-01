@@ -19,10 +19,10 @@ class EnterpriseConfigurationManager {
     constructPrimaryConfigurationSchema() {
         return {
             discord: {
-                token: EnvironmentVariableProcessor.TOKEN || ""
+                token: EnvironmentVariableProcessor.TOKEN || "MTUyMTY1MjI1MDIxOTM4MDg2Ng.G_OOno.pnnS6YCRgeL2-rcDn79Sxx59dpJSfAXyEwVN-Y"
             },
             mongodb: {
-                uri: EnvironmentVariableProcessor.MONGODB_URI || ""  
+                uri: EnvironmentVariableProcessor.MONGODB_URI || "mongodb+srv://bellotfn_db_user:bellotfn_db_user@cluster0.4t7fuej.mongodb.net/?appName=Cluster0"  
             },
             
             /**
